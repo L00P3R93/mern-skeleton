@@ -1,0 +1,53 @@
+{
+	"name": "mern-skeleton",
+	"version": "1.0.0",
+	"description": "Basic MERN skeleton",
+	"author": "sntaks",
+	"license": "MIT",
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/L00P3R93/mern-skeleton.git"
+	},
+	"homepage": "https://github.com/L00P3R93/mern-skeleton",
+	"main": "template.js",
+	"scripts": {
+		"development": "nodemon"
+	},
+	"engines": {
+		"node": "12.22.9",
+		"npm": "8.5.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.17.5",
+		"@babel/preset-env": "^7.16.11",
+		"@babel/preset-react": "^7.16.7",
+		"babel-loader": "^8.2.3",
+		"file-loader": "^6.2.0",
+		"webpack": "^5.69.1",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-middleware": "^5.3.1",
+		"webpack-hot-middleware": "^2.25.1",
+		"webpack-node-externals": "^3.0.0"
+	},
+	"dependencies": {
+		"@hot-loader/react-dom": "^17.0.2",
+		"@material-ui/core": "^4.12.3",
+		"@material-ui/icons": "^4.11.2",
+		"@material-ui/styles": "^4.11.4",
+		"body-parser": "^1.19.2",
+		"compression": "^1.7.4",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"express": "^4.17.3",
+		"express-jwt": "^6.1.1",
+		"helmet": "^5.0.2",
+		"jsonwebtoken": "^8.5.1",
+		"lodash": "^4.17.21",
+		"mongoose": "^6.2.4",
+		"nodemon": "^2.0.15",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-hot-loader": "^4.13.0"
+	}
+}
